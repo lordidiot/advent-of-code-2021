@@ -49,7 +49,7 @@ fn cmds_to_position(cmds: &Vec<Command>) -> (i32, i32) {
 fn main() {
     let args: Vec<String> = env::args().collect();
     if args.len() < 2 {
-        eprintln!("Usage: sonar_sweep <filename>");
+        eprintln!("Usage: dive <filename>");
         return ();
     }
 
